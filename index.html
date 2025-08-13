@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merdge War: ZGames Inc. - Game Information</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 960px;
+            width: 100%;
+            padding: 2rem;
+            background-color: #161b22;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+            margin: 2rem 1rem;
+            box-sizing: border-box;
+        }
+        .page-section {
+            padding-top: 4rem;
+            padding-bottom: 2rem;
+            margin-top: -4rem;
+        }
+        .page-section:not(:first-child) {
+            border-top: 2px solid #30363d;
+            margin-top: 4rem;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #58a6ff;
+            font-weight: 600;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+        h1 { font-size: 2.5rem; text-align: center; margin-bottom: 1rem; color: #E6D030; }
+        h2 { font-size: 2rem; }
+        h3 { font-size: 1.5rem; }
+        p { margin-bottom: 1em; }
+        ul { list-style-type: disc; margin-left: 1.5em; margin-bottom: 1em; }
+        li { margin-bottom: 0.5em; }
+        strong { color: #ffffff; }
+        hr {
+            border-top: 1px solid #30363d;
+            margin: 2rem 0;
+        }
+        .nav-link {
+            @apply text-blue-400 hover:text-blue-200 transition-colors duration-200 ease-in-out;
+        }
+        .nav-menu {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem; /* Space between nav links */
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section id="game-info" class="page-section">
+            <h1>Merdge War: ZGames Inc. - Game Information</h1>
+
+            <nav class="nav-menu">
+                <a href="#download" class="nav-link text-lg">Download Game</a>
+                <a href="#developers" class="nav-link text-lg">About the Developers & Future Plans</a>
+            </nav>
+
+            <hr>
+
+            <h2>The Premise</h2>
+            <p>"Merdge War," you are deployed as part of an elite unit responding to a sudden invasion. Your primary mission is to <strong>push back North Korean forces</strong> and secure key operating bases. You'll face waves of enemy bots, needing to strategically move and shoot to survive and achieve victory. The fate of the mission rests in your hands!</p>
+
+            <hr>
+
+            <h2>How to Play</h2>
+
+            <h3>Controls</h3>
+            <ul>
+                <li><strong>Movement:</strong> Use the <strong>W, A, S, D keys</strong> to move your player character around the map.</li>
+                <li><strong>Aiming & Shooting:</strong> Use your <strong>mouse to aim</strong>, and <strong>left-click</strong> to fire your primary weapon (Rifle) in the direction of your cursor.</li>
+                <li><strong>Hotbar / Item Selection:</strong> Use the <strong>number keys (1-0)</strong> to switch between different items or weapons on your hotbar.
+                    <ul>
+                        <li><strong>1 (Rifle):</strong> Your primary weapon for shooting.</li>
+                        <li><strong>2 (Medkit):</strong> Select this to heal your player by 25 health points if you are not at full health. After use, it automatically switches back to the Rifle.</li>
+                        <li><em>Other slots (3-0) are currently placeholders for future items like grenades or knives.</em></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>Objectives</h3>
+            <p>Your main objective in each mission is to <strong>eliminate all enemy bots</strong>. Additionally, you must protect your <strong>Base Camp</strong>, located at the bottom of the map. While bots don't directly advance on the base in this version, the base has health, which could be a factor in future updates if bots gain base-attacking abilities.</p>
+
+            <hr>
+
+            <h2>Key Features</h2>
+            <ul>
+                <li><strong>Modern Main Menu:</strong> Enjoy a sleek, responsive main menu with dynamic sizing that adapts to your screen, featuring a gradient background and appealing buttons.</li>
+                <li><strong>Dynamic Game States:</strong> Seamless transitions between:
+                    <ul>
+                        <li><strong>Main Menu:</strong> Start your game journey.</li>
+                        <li><strong>Campaign Select:</strong> Choose your difficulty (Easy, Medium, Hard).</li>
+                        <li><strong>Mission Briefing:</strong> Get details about your current mission.</li>
+                        <li><strong>In-Mission:</strong> Engage in the core gameplay.</li>
+                        <li><strong>Mission Complete / Game Over:</strong> Screens indicating the outcome of your mission.</li>
+                    </ul>
+                </li>
+                <li><strong>Engaging Combat:</strong>
+                    <ul>
+                        <li><strong>Precise Player Shooting:</strong> Aim with your mouse and fire with a left-click for accurate shots.</li>
+                        <li><strong>Bots That Move and Shoot:</strong> Enemy bots aren't static targets! They will randomly move left and right, making them harder to hit, and will actively fire magenta-colored bullets at your player, forcing you to dodge and strategize.</li>
+                    </ul>
+                </li>
+                <li><strong>Interactive Hotbar:</strong> Quickly switch between your rifle and other useful items like the Medkit to manage your resources during combat.</li>
+                <li><strong>Obstacles:</strong> Houses on the map provide cover from enemy fire and block your own bullets, adding a tactical layer to the environment.</li>
+                <li><strong>Health Systems:</strong> Keep an eye on your player's health and the base camp's health, both crucial for survival.</li>
+            </ul>
+        </section>
+
+        <section id="download" class="page-section">
+            <h1>Download Merdge War: ZGames Inc.</h1>
+
+            <nav class="nav-menu">
+                <a href="#game-info" class="nav-link text-lg">Back to Game Information</a>
+                <a href="#developers" class="nav-link text-lg">About the Developers & Future Plans</a>
+            </nav>
+
+            <hr>
+
+            <h2>Get the Game</h2>
+            <p>Ready to join the fight? Download the latest version of <strong>Merdge War: ZGames Inc.</strong> here!</p>
+            <ul class="list-none ml-0 text-center">
+                <li class="my-4">
+                    <a href="eula.html" class="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105">
+                        Download MerdgeWar.jar (Desktop Version)
+                    </a>
+                </li>
+                <li class="my-4 text-sm text-gray-400">
+                    <em>(Requires Java Runtime Environment 8 or higher)</em>
+                </li>
+                <li class="my-4">
+                    <a href="#" class="inline-block bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105">
+                        Play Web Version (Coming Soon!)
+                    </a>
+                </li>
+            </ul>
+
+            <hr>
+
+            <h2>Installation Instructions</h2>
+            <p>For the desktop version (.jar file):</p>
+            <ol class="list-decimal ml-6">
+                <li>Ensure you have Java Runtime Environment (JRE) installed on your system. If not, you can download it from the official Java website.</li>
+                <li>Download the <strong>MerdgeWar.jar</strong> file using the link above.</li>
+                <li>Once downloaded, you can typically run the game by <strong>double-clicking</strong> the `.jar` file.</li>
+                <li>If double-clicking doesn't work, open your command prompt or terminal, navigate to the directory where you saved the `.jar` file, and run:
+                    <pre class="bg-gray-800 text-gray-200 p-3 rounded-md mt-2"><code>java -jar MerdgeWar.jar</code></pre>
+                </li>
+            </ol>
+            <p class="mt-4">Enjoy the game!</p>
+        </section>
+
+
+        <section id="developers" class="page-section">
+            <h1>Merdge War: ZGames Inc. - Developers & Future Plans</h1>
+
+            <nav class="nav-menu">
+                <a href="#game-info" class="nav-link text-lg">Back to Game Information</a>
+                <a href="#download" class="nav-link text-lg">Download Game</a>
+            </nav>
+
+            <hr>
+
+            <h2>The Team Behind Merdge War</h2>
+            <p>The <strong>Merdge War</strong> team is dedicated to creating engaging and fun gaming experiences. This project is a testament to our commitment to interactive entertainment and continuous improvement. We welcome feedback and look forward to expanding the universe of Merdge War with new features, challenges, and content.</p>
+            <ul>
+                <li><strong>Programming & Development:</strong> ZGames Inc.</li>
+            </ul>
+
+            <hr>
+
+            <h2>Future Plans & Ideas</h2>
+            <p>While the current web version provides a solid foundation, there's a lot more that can be added to "Merdge War":</p>
+            <ul>
+                <li><strong>More Diverse Bot AI:</strong> Introduce bots with different behaviors, like specialized unit types (e.g., heavy units, snipers), or more advanced pathfinding to navigate around obstacles.</li>
+                <li><strong>New Weapons & Items:</strong> Expand the hotbar with a wider array of weapons (shotguns, machine guns) and tactical gear (grenades, armor).</li>
+                <li><strong>Level Progression:</strong> Design multiple mission levels with increasing difficulty, new map layouts, and varied enemy spawn patterns.</li>
+                <li><strong>Sound Effects & Music:</strong> Add immersive audio for gunshots, explosions, hits, and background music to enhance the gameplay experience.</li>
+                <li><strong>Visual Enhancements:</strong> Replace the current geometric shapes with detailed pixel art sprites for characters, weapons, and environmental elements to fully realize the game's aesthetic.</li>
+                <li><strong>Scoring System:</strong> Implement a scoring system based on enemies defeated, time taken, and base health remaining.</li>
+            </ul>
+            <p>Thank you for playing and supporting <strong>ZGames Inc.</strong>!</p>
+        </section>
+    </div>
+</body>
+</html>
